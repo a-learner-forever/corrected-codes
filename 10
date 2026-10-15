@@ -1,0 +1,18 @@
+
+import numpy as np
+
+# Create an array of student test scores
+scores = np.array([78, 85, 92, 64, 89, 95, 71, 83])
+
+# Calculate statistical measures
+mean_score = np.mean(scores)
+median_score = np.median(scores)
+std_deviation = np.std(scores)
+variance_val = np.var(scores)
+
+# Display results
+print("Dataset Array:", scores)
+print("Mean (Average):", mean_score)
+print("Median (Middle Value):", median_score)
+print("Standard Deviation:", std_deviation)
+print("Variance:", variance_val)
