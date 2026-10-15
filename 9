@@ -1,0 +1,16 @@
+
+import numpy as np
+import pandas as pd
+
+array1 = np.array([10, 20, 30])
+array2 = np.array([100, 200, 300])
+array3 = np.array([-10, -20, -30])
+
+# Create a DataFrame
+df = pd.DataFrame(
+    [array1, array2, array3],
+    columns=["col1", "col2", "col3"]
+)
+
+# Display the DataFrame
+print(df)
