@@ -1,0 +1,10 @@
+
+import csv
+
+file_path = r"D:\JPB\Python\students.csv"
+
+with open(file_path, "r", newline="", encoding="utf-8") as file:
+    details = csv.reader(file)
+
+    for record in details:
+        print(record)
