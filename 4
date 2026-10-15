@@ -1,0 +1,21 @@
+
+# Calculate statistics of a list
+
+numbers = [10, 20, 30, 40, 50]
+list2 = [1, 2, 3, 3, 3, 4]
+
+# Combine both lists
+numbers.extend(list2)
+
+# Calculate statistics
+total_sum = sum(numbers)
+maximum = max(numbers)
+minimum = min(numbers)
+average = total_sum / len(numbers) if numbers else 0
+
+# Display results
+print("List:", numbers)
+print("Sum:", total_sum)
+print("Average:", average)
+print("Maximum:", maximum)
+print("Minimum:", minimum)
